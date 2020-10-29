@@ -8,7 +8,7 @@ I have logically divided the code into two.
 
 In a real world projects, we can build 2 separate pipelines with this isolation.
 
-### ECR creation and Pushing the Docker image
+### ECR creation and pushing the Docker image
 
 In the root directory perform the below:
 
