@@ -8,7 +8,7 @@ I have logically divided the code into two.
 
 In a real world projects, we can build 2 separate pipelines with this isolation.
 
-###ECR creation and Pushing the Docker image
+### ECR creation and Pushing the Docker image
 
 In the root directory perform the below:
 
@@ -25,7 +25,7 @@ This operation creates ECR repo on the account we authenticated.
 Now, login to the AWS console and then navigate to the AWS ECR service, you should see newly created repository. Click on the repository and click View push commands. A modal will appear with four commands and those needs be run locally in order to have the image pushed up to the repository. 
 
 
-###Building the infra necessary for running the container:
+### Building the infra necessary for running the container:
 
 Navigate to folder infra-task-condenast
 
